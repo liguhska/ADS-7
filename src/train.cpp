@@ -30,6 +30,7 @@ int Train::getLength() {
     curr = curr->next;
     steps++;
     countOp++;
+    countOp++;
   }
   return steps;
 }
